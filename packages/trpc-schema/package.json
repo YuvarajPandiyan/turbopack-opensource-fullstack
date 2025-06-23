@@ -1,0 +1,16 @@
+{
+  "name": "@repo/trpc-schema",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@trpc/server": "^10.0.0",
+    "zod": "^3.25.67"
+  }
+}

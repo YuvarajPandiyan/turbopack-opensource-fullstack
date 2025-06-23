@@ -1,0 +1,19 @@
+{
+    "name": "@repo/tailwind-config",
+    "version": "0.0.0",
+    "type": "module",
+    "private": true,
+    "exports": {
+        "./postcssConfig": "./postcss.config.js",
+        "./tailwindConfig": "./tailwind.config.js",
+        "./sharedStylesWithTailwind": "./sharedStylesWithTailwind.css"
+    },
+    "devDependencies": {
+        "tailwindcss": "3.4.17",
+        "autoprefixer": "^10.4.21",
+        "postcss": "^8.5.3"
+    },
+    "scripts": {
+        "lint:fix": "eslint . --fix"
+    }
+}

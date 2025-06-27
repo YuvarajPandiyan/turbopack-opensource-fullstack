@@ -2,6 +2,15 @@
 
 This Turborepo starter is maintained by Yuvaraj.
 
+# How it look now:
+
+<img width="1590" alt="Screenshot 2025-06-22 at 12 59 22 PM" src="https://github.com/user-attachments/assets/9a45da4c-41b0-4c09-9514-1ae32a561ff9" />
+<img width="1710" alt="Screenshot 2025-06-27 at 11 04 24 AM" src="https://github.com/user-attachments/assets/de862de9-2a28-49dd-b523-83f8be91a595" />
+<img width="1710" alt="Screenshot 2025-06-27 at 11 04 17 AM" src="https://github.com/user-attachments/assets/072d4608-e21b-4162-8f64-a4da7e9a6d97" />
+<img width="1649" alt="Screenshot 2025-06-27 at 11 04 05 AM" src="https://github.com/user-attachments/assets/3fdbc117-f33b-4f58-be57-f2347553c02e" />
+
+
+
 ## What's inside?
 
 This Turborepo includes the following packages/apps:

@@ -15,6 +15,9 @@
   "dependencies": {
     "@heroui/react": "^2.7.10",
     "@repo/ui": "workspace:*",
+    "@tanstack/react-query": "^5.81.2",
+    "@trpc/client": "^11.4.2",
+    "@trpc/react-query": "^11.4.2",
     "framer-motion": "^12.18.1",
     "next": "^15.3.0",
     "react": "^19.1.0",
@@ -23,6 +26,7 @@
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
     "@repo/tailwind-config": "workspace:*",
+    "@repo/trpc-schema": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "@types/node": "^22.15.3",
     "@types/react": "19.1.0",
@@ -31,6 +35,6 @@
     "eslint": "^9.28.0",
     "postcss": "^8.5.3",
     "tailwindcss": "3.4.17",
-    "typescript": "5.8.2"
+    "typescript": "5.8.3"
   }
 }

@@ -21,8 +21,6 @@ export class UserController {
 
   @Mutation({ input: CreateUserSchema, output: UserSchema })
   create(@Input() userData: CreateUser) {
-    console.log('Creating user with data:', userData);
-
     return this.userService.create(userData);
   }
 

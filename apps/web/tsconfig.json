@@ -11,6 +11,9 @@
       ],
       "@repo/tailwind-config/*": [
         "../../packages/tailwind-config/*"
+      ],
+      "@repo/trpc-schema/generalBackend": [
+        "../../packages/trpc-schema/dist/index"
       ]
     },
     "strict": true,

@@ -6,11 +6,29 @@
   "publishConfig": {
     "access": "public"
   },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "@repo/trpc-schema/generalBackend/*": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
   "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@trpc/server": "^10.0.0",
+    "@tanstack/react-query": "^5.81.2",
+    "@trpc/client": "^11.4.2",
+    "@trpc/react-query": "^11.4.2",
+    "@trpc/server": "^11.4.2",
     "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2",
+    "@repo/typescript-config": "workspace:*"
   }
 }

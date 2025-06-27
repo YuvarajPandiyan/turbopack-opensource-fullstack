@@ -45,6 +45,7 @@
     "@repo/eslint-config": "workspace:*",
     "@repo/trpc-schema": "workspace:*",
     "@repo/typescript-config": "workspace:*",
+    "@repo/general-backend-db": "workspace:*",
     "@repo/utils": "workspace:*",
     "@swc/cli": "^0.6.0",
     "@swc/core": "^1.12.1",
@@ -74,7 +75,6 @@
       "json",
       "ts"
     ],
-    "rootDir": "src",
     "testRegex": ".*\\.spec\\.ts$",
     "transform": {
       "^.+\\.(t|j)s$": "ts-jest"

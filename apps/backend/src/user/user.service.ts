@@ -22,7 +22,6 @@ export class UserService {
       updatedAt: Date.now(),
     };
     this.users.push(newUser);
-    console.log('Creating user with data:', { newUser, uuid });
 
     return newUser;
   }
